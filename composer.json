@@ -1,0 +1,19 @@
+{
+	"name": "akmalhanif/belajar-php-composer-hello",
+	"description": "Composer Library Hello",
+	"type": "library",
+	"authors": [
+		{
+			"name": "akmalhanif007",
+			"email": "mhanifakmalludin@gmail.com"
+		}
+	],
+	"require": {
+		"php": ">=7.0"
+	},
+	"autoload": {
+		"psr-4": {
+			"AkmalHanif\\Belajar\\": "src/"
+		}
+	}
+}
